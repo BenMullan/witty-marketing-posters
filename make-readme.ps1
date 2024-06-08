@@ -8,7 +8,7 @@ BM's utterly hysterical, sometimes casuistic, & unpardonably witty marketing pos
 $(
 	dir | ? psIsContainer | % {
 		$_.getFiles("*.png") | % {
-			"`n<img src=""https://github.com/BenMullan/notebook-2-app/blob/main/$($_.directory.name)/$($_.name)?raw=true"" width=""100%"" />"
+			"`n<img src=""https://github.com/BenMullan/witty-marketing-posters/blob/main/$($_.directory.name)/$($_.name)?raw=true"" width=""100%"" />"
 		}
 	}
 )
