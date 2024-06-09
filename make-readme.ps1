@@ -2,7 +2,7 @@
 # Exec:		pwsh.exe -File make-readme.ps1
 # Author:	Ben Mullan (c) 2024
 
-# File names include a rating of 0 (best) to 3 (passable), like: `1-cat-title.png`
+# File names include a hilarity-rating of 0 (best) to 3 (passable), like: `0-hc-annual-expendature.png`
 
 @"
 # Witty Marketing Posters
