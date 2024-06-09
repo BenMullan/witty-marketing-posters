@@ -2,14 +2,17 @@
 # Exec:		pwsh.exe -File make-readme.ps1
 # Author:	Ben Mullan (c) 2024
 
+# File names include a rating of 0 (best) to 3 (passable), like: `1-cat-title.png`
+
 @"
 # Witty Marketing Posters
-BM's utterly hysterical, sometimes casuistic, & unpardonably witty marketing posters
+BM's utterly hilarious, sometimes casuistic, but unpardonably witty, marketing posters...
+$("<br/>" * 4)
 $(
-	dir | ? psIsContainer | % {
+	dir -path $psScriptRoot	| ? psIsContainer | % {
 		$_.getFiles("*.png") | % {
 			"`n<img src=""https://github.com/BenMullan/witty-marketing-posters/blob/main/$($_.directory.name)/$($_.name)?raw=true"" width=""100%"" /> $("<br/>" * 4)"
 		}
-	}
+	} | sort { ($_ | sls -pattern "\d\-\w+").matches.value }
 )
-"@ | out-file -filePath "./readme.md"
+"@ | out-file -filePath "$psScriptRoot\readme.md"
