@@ -5,7 +5,7 @@
 # File names include a hilarity-rating of 0 (best) to 3 (passable), like: `0-hc-annual-expendature.png`
 
 @"
-### Witty Marketing Posters
+**Witty Marketing Posters**<br/>
 BM's utterly hilarious, sometimes casuistic, but unpardonably witty marketing posters...
 
 $(
