@@ -6,13 +6,15 @@
 
 @"
 # Witty Marketing Posters
-BM's utterly hilarious, sometimes casuistic, but unpardonably witty, marketing posters...
+BM's utterly hilarious, sometimes casuistic, but unpardonably witty marketing posters...
 $("<br/>" * 4)
-$(
-	dir -path $psScriptRoot	| ? psIsContainer | % {
-		$_.getFiles("*.png") | % {
-			"`n<img src=""https://github.com/BenMullan/witty-marketing-posters/blob/main/$($_.directory.name)/$($_.name)?raw=true"" width=""100%"" /> $("<br/>" * 4)"
-		}
-	} | sort { ($_ | sls -pattern "\d\-\w+").matches.value }
-)
-"@ | out-file -filePath "$psScriptRoot\readme.md"
+
+	$(
+		dir -path $psScriptRoot	| ? psIsContainer | % {
+			$_.getFiles("*.png") | % {
+				"--- `n <img src=""https://github.com/BenMullan/witty-marketing-posters/blob/main/$($_.directory.name)/$($_.name)?raw=true"" width=""100%"" /> `n $("<br/>" * 4) `n`n"
+			}
+		} | sort { ($_ | sls -pattern "\d\-\w+").matches.value }
+	)
+
+"@ | out-file -filePath "$psScriptRoot\readme.md" 
