@@ -9,7 +9,7 @@
 BM's utterly hilarious, sometimes casuistic, but unpardonably witty marketing posters...
 
 $(
-	dir -path $psScriptRoot	| ? psIsContainer | % {
+	dir -path (join-path $psScriptRoot "posters") | ? psIsContainer | % {
 		$_.getFiles("*.png") | % {
 			"`n#`n$("<br/>" * 2)`n<img src=""https://github.com/BenMullan/witty-marketing-posters/blob/main/$($_.directory.name)/$($_.name)?raw=true"" width=""100%"" />`n$("<br/>" * 2)`n"
 		}
