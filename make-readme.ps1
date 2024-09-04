@@ -7,7 +7,6 @@
 @"
 # Witty Marketing Posters
 BM's utterly hilarious, sometimes casuistic, but unpardonably witty marketing posters...
-$("<br/>" * 4)
 
 $(
 	dir -path $psScriptRoot	| ? psIsContainer | % {
