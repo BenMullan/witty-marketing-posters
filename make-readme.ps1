@@ -6,7 +6,7 @@
 
 @"
 **Witty Marketing Posters**<br/>
-BM's utterly hilarious, sometimes casuistic, but unpardonably witty marketing posters...
+BM's unimpugnably hilarious, sometimes casuistic, but unpardonably witty - marketing posters...
 
 $(
 	dir -path (join-path $psScriptRoot "posters") | ? psIsContainer | % {

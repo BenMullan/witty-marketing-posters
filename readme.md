@@ -1,12 +1,7 @@
 **Witty Marketing Posters**<br/>
-BM's utterly hilarious, sometimes casuistic, but unpardonably witty marketing posters...
+BM's unimpugnably hilarious, sometimes casuistic, but unpardonably witty - marketing posters...
 
 
-#
-<br/><br/>
-<img src="https://github.com/BenMullan/witty-marketing-posters/blob/main/posters/misc/0-confidential-nhs-paperwork-job-lot.png?raw=true" width="100%" />
-<br/><br/>
- 
 #
 <br/><br/>
 <img src="https://github.com/BenMullan/witty-marketing-posters/blob/main/posters/horticulture/0-hc-annual-expendature.png?raw=true" width="100%" />
@@ -34,12 +29,22 @@ BM's utterly hilarious, sometimes casuistic, but unpardonably witty marketing po
  
 #
 <br/><br/>
+<img src="https://github.com/BenMullan/witty-marketing-posters/blob/main/posters/misc/1-confidential-nhs-paperwork-job-lot.png?raw=true" width="100%" />
+<br/><br/>
+ 
+#
+<br/><br/>
 <img src="https://github.com/BenMullan/witty-marketing-posters/blob/main/posters/misc/1-ds-lost-in-translation.png?raw=true" width="100%" />
 <br/><br/>
  
 #
 <br/><br/>
 <img src="https://github.com/BenMullan/witty-marketing-posters/blob/main/posters/misc/1-ds-font-of-all-knowledge.png?raw=true" width="100%" />
+<br/><br/>
+ 
+#
+<br/><br/>
+<img src="https://github.com/BenMullan/witty-marketing-posters/blob/main/posters/horticulture/1-hc-humiliating-blunder.png?raw=true" width="100%" />
 <br/><br/>
  
 #
@@ -60,11 +65,6 @@ BM's utterly hilarious, sometimes casuistic, but unpardonably witty marketing po
 #
 <br/><br/>
 <img src="https://github.com/BenMullan/witty-marketing-posters/blob/main/posters/horticulture/1-hc-debating-update.png?raw=true" width="100%" />
-<br/><br/>
- 
-#
-<br/><br/>
-<img src="https://github.com/BenMullan/witty-marketing-posters/blob/main/posters/horticulture/1-hc-humiliating-blunder.png?raw=true" width="100%" />
 <br/><br/>
  
 #
